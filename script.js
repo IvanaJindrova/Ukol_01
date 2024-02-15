@@ -5,4 +5,4 @@ let stCelsia = citatel / 9
 
 console.log(stCelsia)
 
-document.body.innerHTML = "<p> Na troubě nastav " + Math.round(stCelsia) + " stupňů Celsia.</p>"
+document.body.innerHTML += "<p> Na troubě nastav " + Math.round(stCelsia) + " stupňů Celsia.</p>"
